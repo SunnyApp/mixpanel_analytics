@@ -10,18 +10,17 @@ issue_tracker: https://github.com/Alpha-health/mixpanel_analytics/issues
 
 environment:
   sdk: ">=2.2.2 <3.0.0"
-
+  flutter: <3.0.0
 dependencies:
   flutter:
     sdk: flutter
   logging: 0.11.4
-  http: ^0.12.0+2
-  shared_preferences: ^0.5.3+1
+  http: ^0.12.2
+  shared_preferences: ^0.5.12
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
-  mockito: ^4.1.0
+  mockito: any
 
 flutter:
